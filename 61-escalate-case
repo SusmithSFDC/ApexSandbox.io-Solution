@@ -1,4 +1,14 @@
 public void escalateIfMeetsCriteria(Case c) {
     //code here
-    c.IsEscalated = true;
+
+    Case c = new Case();
+    c.Type = 'Mechanical';
+    c.Type = 'Electrical';
+    c.Reason = 'Breakdown';
+    c.Status = 'In Progress';
+    escalateIfMeetsCriteria(c);
+    if((c.Type == 'Mechanical' || c.Type == 'Electrical') && (c.Reason = 'Breakdown' && c.Status = 'In Progress')){
+        c.IsEscalated = true;
+    }
+
 }
