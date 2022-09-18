@@ -1,0 +1,4 @@
+public void escalateIfMeetsCriteria(Case c) {
+    //code here
+    c.IsEscalated = true;
+}
