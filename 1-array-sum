@@ -1,4 +1,4 @@
 public static Integer arraySum(List<Integer> numbers) {
     //code here
-    numbers.size();
+    numbers.get(3);
 }
