@@ -2,7 +2,7 @@ public String employeeEmail(Map<String, String> employeeIdToEmail, String employ
     //code here
 
     if(employeeIdToEmail.containsKey(employeeId)){
-        return employeeIdToEmail;
+        return employeeIdToEmail.get(employeeId);
     }else {
         return 'alicia@acmeenterprises.com';
     }
