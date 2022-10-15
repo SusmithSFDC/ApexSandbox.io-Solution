@@ -9,4 +9,5 @@ public Map<String, Decimal> industrySummary(List<Account> accounts) {
             summary.put(acc.Industry, acc.AnnualRevenue);
         }
     }
+    return summary;
 }
