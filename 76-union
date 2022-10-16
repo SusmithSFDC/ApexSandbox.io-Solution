@@ -1,9 +1,8 @@
 public Set<Integer> setUnion(Set<Integer> set1, Set<Integer> set2) {
     //code here
     Set<Integer> set3 = new Set<Integer>();
-    if(set1 != null && set2 != null){
-        set3.addAll(set1, set2);
-       
-    }
+    
+    set3.addAll(set1, set2);
+
     return set3;
 }
