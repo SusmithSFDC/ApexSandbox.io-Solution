@@ -1,7 +1,7 @@
 public Set<Integer> setUnion(Set<Integer> set1, Set<Integer> set2) {
     //code here
     Set<Integer> set3 = new Set<Integer>(set1);
-    
+    system.debug(set3);
     set3.addAll(set2);
 
     return set3;
