@@ -1,0 +1,6 @@
+public void insertAtStart(String cityName, List<String> cities) {
+    //code here
+    List<String> cities = new List<String>{'Seattle', 'Cairo', 'London'};
+
+insertAtStart('Mumbai', cities);
+}
